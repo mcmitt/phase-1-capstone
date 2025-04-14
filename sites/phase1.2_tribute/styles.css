@@ -1,0 +1,65 @@
+html {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgba(218, 165, 32, 0.514);
+}
+.intro {
+    text-align: center;
+    font-size: small;
+}
+#herta-caption {
+    font-size: medium;
+    font-style: italic;
+    padding: 10px 5%;
+}
+#herta-img {
+    background: white;
+    padding: 20px;
+    margin: 0;
+    max-width: 100%;
+}
+#herta-img img {
+    width: 100%;
+    max-width: 80%;
+    min-width: 50%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+}
+ .timeline h4 {
+    text-align: center;
+    font-weight: bold;
+    margin: 25px;
+}
+.timeline li {
+    margin-left: 5%;
+    margin-top: 10px
+}
+#sausage-img {
+    display: block;
+    margin: 10px auto;
+    max-width: 50%;
+    max-height: 25%;
+}
+#coin-img {
+    display: block;
+    margin: 10px auto;
+    max-width: 50%;
+    max-height: 30%;
+}
+.footer {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: white;
+    font-size: small;
+    text-align: center;
+}
+.plaque-img {
+    width: 50%;
+    height: auto;
+}
+.footer a {
+    font-size: 1.2em;
+}
+.footer-quote {
+    font-style: italic;
+}

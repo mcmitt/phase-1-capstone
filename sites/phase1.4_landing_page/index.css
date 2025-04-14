@@ -1,0 +1,90 @@
+/** Import a reset style sheet to reset different browser defaults */
+@import url("reset.css");
+
+/* General Formatting */
+body {
+    margin: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #212529;
+    background: repeating-linear-gradient(
+        30deg,
+        white,
+        white 10px,
+        #df7580 10px,
+        #df7580 20px
+    );
+    /* border: blue 3px solid; */
+}
+
+/* Hero Section */
+.hero .neon {
+    width: 100%;
+    height: 20%;
+}
+.welcome {
+    font-family: Bangers, sans-serif;
+}
+
+/* Navbar Section */
+.navbar {
+    font-family: Bangers, san-serif;
+}
+.navbar-item {
+    font-size: calc(1em + 1vw);
+    text-decoration: none;
+}
+.navbar-item:hover {
+    color: #dc3545;
+}
+
+/* Main Section */
+main {
+    font-family: Bangers, san-serif;
+}
+.services .row, .about .row {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 90%;
+    margin-left: 5%;
+}
+.row img {
+    margin: 10px 0;
+    align-self: center;
+    width: 300px;
+    height: 180px;
+}
+.disclaimer {
+    font-size: x-small;
+}
+.divider {
+    height: 2px;
+    width: 100%;
+    background: linear-gradient(90deg, white, #dc3545, white);
+}
+
+/* Footer Section*/
+.footer-text {
+    font-family: "Dancing Script";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.footer-social {
+    display: flex;
+}
+.footer-social, .footer-trademark {
+    font-family: Bangers, san-serif;
+}
+.social-buttons a {
+    color: #dc3545;
+}
+.social-buttons a:hover {
+    color: goldenrod;
+}
+
+/** Using media queries allows for responsive design */
+@media (max-width: 500px) {
+    .footer-social {
+        display: block;
+    }
+}
